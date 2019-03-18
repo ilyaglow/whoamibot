@@ -24,6 +24,9 @@ type meta struct {
 }
 
 func main() {
+	if botToken == "" {
+		log.Fatal("set TGBOT_TOKEN environment variable")
+	}
 
 	var bot *tgbotapi.BotAPI
 	var err error
