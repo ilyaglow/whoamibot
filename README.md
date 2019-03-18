@@ -7,6 +7,6 @@ How to run
 ----------
 
 ```
-go get ilya.app/whoamibot
+go get -u ilya.app/whoamibot
 TGBOT_TOKEN=<YOUR TOKEN> SOCKS5_URL=<SOCKS URL> whoamibot
 ```
