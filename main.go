@@ -130,5 +130,5 @@ func newMeta(upd *tgbotapi.Update) (*meta, error) {
 		}, nil
 	}
 
-	return nil, errors.New("unsupported type of message")
+	return nil, errors.New("unsupported update type")
 }
