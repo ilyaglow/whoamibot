@@ -43,9 +43,9 @@ func main() {
 		}
 
 		bot, err = tgbotapi.NewBotAPIWithClient(botToken, client)
-		if err != nil {
-			log.Fatal(err)
-		}
+	}
+	if err != nil {
+		log.Fatal(err)
 	}
 
 	bot.Debug = true
